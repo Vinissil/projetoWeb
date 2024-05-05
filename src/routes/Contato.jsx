@@ -9,7 +9,8 @@ function Contato() {
         <form> 
         <h1>Contato</h1>
           <p>
-          <input type="text" placeholder='Digite o Assunto'/>
+            Nome
+          <input type="text" placeholder='Digite seu Nome'/>
           </p>
           <p>
             Email
