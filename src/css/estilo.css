@@ -240,13 +240,19 @@ form textarea {
   height: 100vh;
   background-image: url(../assets/aquario.png);
   padding-top: 100px;
+  align-items: center;
+  text-align: center;
 }
 
 .login p {
-  color: blue;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .login input {
-  width: 150px;
+  width: 250px;
   height: 30px;
   margin: 20px;
 }

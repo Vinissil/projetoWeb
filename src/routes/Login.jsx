@@ -1,10 +1,12 @@
 import { useRef } from 'react';
 import Produtos from './Produtos';
+import logo from "../assets/logoMarProfundo.png";
 import '../css/estilo.css';
 
 function Login() {
   /* Hook- useRef ele retorna uma referencia a um elemento ou componentsem tem que ter que ser
   renderizado novamente*/
+  
   const usuario = useRef();
   const senha = useRef();
 
@@ -26,12 +28,16 @@ function Login() {
     }
   };
 
+
+
   return (
     <section className="login">
+      <img src={logo}/>
       {/*condição ternária */}
       {getUsuario && getSenha ? (
         <Produtos/>
       ) : (
+
         <form onSubmit={handleSubmit} >
           <p>
             USUÁRIO:
