@@ -6,12 +6,13 @@ function Contato() {
     <>
       <section className="contato">
     
-        <form>
+        <form> 
         <h1>Contato</h1>
-          <p>
+          <p>Assunto
           <input type="text" placeholder='Digite o Assunto'/>
           </p>
           <p>
+            Email
             <input type="text" placeholder='Digite um Email valido'/>
           </p>
           <textarea placeholder='Deixe sua mensagem'></textarea>
