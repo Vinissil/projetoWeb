@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Produtos from './Produtos';
-import logo from "../assets/logoMarProfundo.png";
+import logo from "../assets/LogoViolao.png";
 import '../css/estilo.css';
 
 function Login() {
@@ -47,7 +47,7 @@ function Login() {
             SENHA:
             <input type="password" placeholder="Digite sua senha" ref={senha} />
           </p>
-          <button type="submit">ENTRAR</button>
+          <button alt={Produtos} type="submit">ENTRAR</button>
         </form>
       )}
     </section>

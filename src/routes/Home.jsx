@@ -1,6 +1,6 @@
 import {} from 'react';
 import '../css/estilo.css';
-import logo from "../assets/logoMarProfundo.png";
+import logo from "../assets/LogoViolao.png";
 
 
 function Home() {
