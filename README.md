@@ -1,30 +1,45 @@
-CP 5 - Web Development:
 
-Este projeto é um e-commerce desenvolvido em React, orientado pelo professor Wwllington Cidade. Tratamos de fazer um ecommerce especializado na venda de aquários e peixes exóticos.
+# 🚀 CP 5 - Web Development
 
-Tecnologias Utilizadas:
-React
-React Router (para gerenciamento de rotas)
-Funcionalidades
-O e-commerce possui as seguintes rotas principais:
+Bem-vindo(a) ao projeto de web development uma aplicação desenvolvida em REACT.JS!
 
-Home: Página inicial do e-commerce.
-Login: Página de login para acesso dos usuários registrados.
-Sobre: Informações sobre a empresa.
-Contato: Local reservado para que o usuário possa enviar mensagem à equipe de SAC, e também os telefones de contato.
-Produtos: Página onde é exibido nosso catálogo de produtos.
+O objetivo desta CP é a Criação de um E-commerce de Instrumentos musicais
+
+> ⚠️ **Projeto Desenvolvido pelo Grupo**
+## 😎 Integrantes
+- Gabriel Mediotti Marques - 552632
+- Jó Sales - 552679
+- Miguel Garcez de Carvalho - 553768
+- Vinicius Souza e Silva - 552781
 
 
-Instalação e Uso
-Clone este repositório: git clone https://github.com/Vinissil/projetoWeb.git
-Instale as dependências: npm install
-Execute o projeto: npm start
-O projeto estará disponível em http://localhost:5173/
+## 📋 Instruções
+
+1) npm install (instal o pacote node_modules)
+2) npm run dev (executa o projeto)
+
+-Utilizando a IDE VSCode.
+-Imagens em SVG.
+-Utilizando estrutura padrão dada em sala no arquivo APP.jsx.
+
+//INSTALAÇÃO DAS DEPENDÊNCIAS 
+
+No terminal digite: npm install react-router-dom
+
+//PARA EXECUTAR ESSE PROJETO EM SEU COMPUTADOR ABRA O PROJETO NO VSCODE
+DEPOIS NO TERMINAL DIGITE : npm install  ( para instalar a pasta node_modules)
 
 
-Autores
-Nome do Autor
-Gabriel Mediotti Marques
-Jó de Sousa Sales
-Miguel Garcez de Carvalho
-Vinicius Souza e Silva
+## ✔️ Criação de páginas
+
+Páginas criadas de acordo com o que foi pedido no projeto:
+
+- Home
+- Login
+- Contato
+- Sobre
+- Produto
+  
+---
+
+Made by the SQUADTEAM FIAP 1ESPR.
