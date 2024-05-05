@@ -8,7 +8,7 @@ function Contato() {
     
         <form> 
         <h1>Contato</h1>
-          <p>Assunto
+          <p>
           <input type="text" placeholder='Digite o Assunto'/>
           </p>
           <p>
