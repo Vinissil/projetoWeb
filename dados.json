@@ -1,18 +1,32 @@
 {
-    "produto":[
-        {
-            "id":"1",
-            "nome":"Mouse Gamer",
-            "desc":"Melhor Mouse",
-            "valor":500
-        },
-        {
-            "id":"2",
-            "nome":"Teclado Games",
-            "desc":"teclado sem fio",
-            "valor":600
-        }
-      
-
+    "produto": [
+      {
+        "id": 1,
+        "nome": "Aquário de Vidro",
+        "descricao": "Aquário de vidro com capacidade para 50 litros.",
+        "preco": 150.00,
+        "imagem": "src/assets/products/aquario_vidro_5.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Filtro Interno",
+        "descricao": "Filtro interno para aquário com capacidade para até 100 litros.",
+        "preco": 40.00,
+        "imagem": "src/assets/products/filtro_aquario.webp"
+      },
+      {
+        "id": 3,
+        "nome": "Ração para Peixes Tropicais",
+        "descricao": "Ração especial para peixes tropicais em flocos.",
+        "preco": 15.00,
+        "imagem": "src/assets/products/racao_peixes.webp"
+      },
+      {
+        "id": 4,
+        "nome": "Planta Artificial para Aquário",
+        "descricao": "Planta artificial para decorar seu aquário.",
+        "preco": 8.00,
+        "imagem": "src/assets/products/planta_artificial.jpeg"
+      }
     ]
-}
+  }

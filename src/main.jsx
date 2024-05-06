@@ -9,7 +9,6 @@ import Error from './routes/Error.jsx';
 import Login from './routes/Login.jsx';
 import Produtos from "./routes/Produtos.jsx"
 import Portifolio from "./routes/Portifolio.jsx"
-import ListaProdutos from './routes/ListaProdutos.jsx'
 
 
 const router = createBrowserRouter ([
@@ -23,7 +22,6 @@ const router = createBrowserRouter ([
       {path: '/Contato', element: <Contato/>},
       {path: '/Produto',element:<Produtos/>},
       {path: '/Portifolio',element:<Portifolio/>},
-      {path: '/ListaProduto',element:<ListaProdutos/>},
       {path: '/Login', element: <Login/>},
     ]
   }
