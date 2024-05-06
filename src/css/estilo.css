@@ -36,11 +36,16 @@
 
 .footerContainer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color: black;
   color: #000000;
+}
+.icons {
+  font-size: 35px;
+  padding: 0 10px;
 }
 
 .footer {
@@ -278,4 +283,8 @@ form textarea {
 #texto{
   color:blue;
   padding-top: 15px;
+}
+
+.icons {
+  color: #FFFFFF;
 }
