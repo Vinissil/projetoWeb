@@ -173,7 +173,7 @@ h5 {
   text-align: center;
   color: #FFFFFF;
 }
-/* Card */
+
 
 .card {
   width: 250px;
@@ -285,6 +285,36 @@ form textarea {
   padding-top: 15px;
 }
 
-.icons {
-  color: #FFFFFF;
+.produtos-container {
+  background-image: url('../assets/aquario.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+
+.produtos-content {
+  text-align: center;
+}
+
+
+.produtos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.produtos-table th, .produtos-table td {
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+
+.produtos-table th {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.produtos-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
 }
