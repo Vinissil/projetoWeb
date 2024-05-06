@@ -318,3 +318,15 @@ form textarea {
 .produtos-table tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.1); 
 }
+
+.carousel img{
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+#home{
+  background-color: rgb(255, 245, 231);
+  padding: 20rem 0rem;
+  width: 100%;
+  height: auto;
+}
